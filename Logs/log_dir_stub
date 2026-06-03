@@ -1,0 +1,4 @@
+# - This is just a file to keep the Logs dir on git push
+# - It exists in the default setup example scripts as a log directory for each container;
+# -- but can be deleted, not used, or logs can be directed elsewhere according to the user's wishes
+

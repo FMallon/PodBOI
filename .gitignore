@@ -1,0 +1,5 @@
+Logs/*
+!Logs/log_dir_stub
+.cache_podboi/
+.local_podboi/
+Container_Scripts/

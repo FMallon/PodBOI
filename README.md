@@ -229,7 +229,7 @@ podboi --env dev --exec all ls
 
 ### `--is-root`
 
-Display current Podman mode (Rootful or Rootless).
+Displays the current PodBOI environment Rootful/Rootless state.
 
 ### `--print-env-vars`
 

@@ -533,13 +533,13 @@ user_input_image_choice() {
 		local all_valid="true"
 
 
-        "${READ_COMMAND[@]}" "What image/images do you wish to use? " "${READ_COMMAND_ARRAY_FLAG[@]}" user_input_image || 
+        "${READ_COMMAND[@]}" "What image/images do you wish to use? " "${READ_COMMAND_ARRAY_FLAG[@]}" user_input_images || 
         { 
             \printf "\nError taking User Input!\n\n"; 
             return 2; 
             }
 
-        if [[ ${#user_input_image[@]} -eq 0 ]]; then
+        if [[ ${#user_input_images[@]} -eq 0 ]]; then
             
 			USER_DEFINED_IMAGES=("${IMAGES[@]}")
             \printf "\n\nDefault Images chosen: %s\n\n" "${IMAGES[*]}"
